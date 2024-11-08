@@ -1,0 +1,7 @@
+langchain
+faiss-cpu
+langchain_nvidia_ai_endpoints
+python-dotenv
+langchain-community
+streamlit
+pypdf
