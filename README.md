@@ -93,6 +93,41 @@ This will launch the app in your browser, where you can interact with the Q&A sy
 - The **Document Similarity Search** section shows the document chunks retrieved that were most relevant to your query.
 - This allows you to see the exact content the model used to answer your question.
 
+## Application Execution 🚀
+
+### Initial Page 🖥️
+
+Upon loading the application, you will be greeted with an interface where you can input your questions based on the documents that have been added to the application. Here's how to proceed:
+
+1. **Enter your question**: In the input box labeled **"Enter your question from Documents"**, type in your query.
+   
+2. **Click "Embed the docs & Fetch Answer"**: After entering your question, click the button **Embed the docs & Fetch Answer**. This will load and embed the documents, prepare the FAISS vector store, and fetch the relevant answers based on the provided context.
+
+3. **Answer Display**: Once the process completes, the app will provide you with an answer derived from the documents.
+
+4. **Expand Similarity Search**: You can also expand the **Document Similarity Search** section to view the specific context or chunks from the documents that were used to generate the answer.
+
+This section gives you the ability to see from where the model has derived its response, making the application highly transparent and easy to understand.
+
+## Output Screenshots 📸
+
+Here are a few sample outputs to illustrate how the application works:
+
+1. **Initial Page View**:
+  ![image](https://github.com/user-attachments/assets/80951c22-78d2-41ed-bf43-efd718f8eace)
+
+   - The user interface where you can enter your questions and interact with the app.
+
+2. **Question Answering**:
+   ![image](https://github.com/user-attachments/assets/21e548c7-cafc-4022-bcca-02735c9641ae)
+
+   - Example of the answer displayed after processing the documents and retrieving relevant content.
+
+3. **Document Similarity Search**:
+   ![image](https://github.com/user-attachments/assets/50c0c900-c3ce-4ed1-86c5-1e3f2d6f430b)
+
+   - Expanded section showing the document chunks that were used for generating the answer.
+
 ## Code Overview 👨‍💻
 
 ### Main Components 🛠️
